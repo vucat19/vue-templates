@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import FontFamilySelector from "./font-family";
-import FontSizeSelector from "./font-size";
-import MenuLink from "./menu-link";
+import FontFamilySelector from "./font_family";
+import FontSizeSelector from "./font_size";
+import MenuLink from "./menu_link";
 
 export default {
   components: {

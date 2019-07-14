@@ -21,7 +21,7 @@
     </div>
 
     <div class="d-flex mt-4">
-      <input type="text" class="toolbox__input" placeholder="#1e304f" />
+      <input type="text" class="form-control" placeholder="#1e304f" />
       <button class="btn btn-apply">Apply</button>
     </div>
 
@@ -81,6 +81,10 @@ export default {
 .color-picker {
   &__box {
     width: 100%;
+  }
+
+  .form-control {
+    height: 36px;
   }
 }
 .btn-apply {

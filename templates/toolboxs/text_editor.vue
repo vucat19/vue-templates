@@ -28,7 +28,7 @@
       </ul>
     </div>
 
-    <input type="text" class="toolbox__input" placeholder="BIRTHDAY'S INVITATION" />
+    <input type="text" class="form-control" placeholder="BIRTHDAY'S INVITATION" />
 
     <div class="tool-menu mt-3">
       <ul class="icon-list d-flex justify-content-between">
@@ -112,4 +112,9 @@
 </template>
 
 <style lang="scss" scoped>
+.text-editor {
+  .form-control {
+    height: 36px;
+  }
+}
 </style>

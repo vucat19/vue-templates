@@ -16,7 +16,7 @@
       class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
       aria-labelledby="userDropdown"
     >
-      <input class="input-selector__value-box" type="text" placeholder="17" />
+      <input class="form-control" type="text" placeholder="17" />
 
       <div class="font-wrapper">
         <div class="selector-list my-2">
@@ -69,6 +69,10 @@
     & > .dropdown-toggle::after {
       display: none;
     }
+  }
+
+  .form-control {
+    height: 36px;
   }
 }
 </style>

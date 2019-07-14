@@ -1,0 +1,17 @@
+.icon-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 30px;
+
+  display: flex;
+
+  &__item {
+    & > .btn {
+      padding: 0;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}

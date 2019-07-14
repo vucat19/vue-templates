@@ -1,5 +1,5 @@
 <template>
-  <div class="input-selector nav-item dropdown no-arrow d-inline-block">
+  <div class="input-selector nav-item dropdown d-inline-block">
     <a
       class="nav-link dropdown-toggle"
       href="#"
@@ -73,6 +73,12 @@
       transform: translateX(-24px);
       width: calc(100% + 24px);
       text-align: left;
+    }
+  }
+
+  &.no-arrow {
+    & > .dropdown-toggle::after {
+      display: none;
     }
   }
 }
